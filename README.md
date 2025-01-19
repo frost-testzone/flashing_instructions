@@ -15,15 +15,15 @@
 ## Connect your phone to pc and write these commands in your pc's cmd -
 
 ```
-fastboot flash boot_a voltage-4.0.1-veux-20241207-1002-OFFICIAL-boot.img
+fastboot flash boot_a voltage-4.1-veux-20250119-1217-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash boot_b voltage-4.0.1-veux-20241207-1002-OFFICIAL-boot.img
+fastboot flash boot_b voltage-4.1-veux-20250119-1217-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash vendor_boot voltage-4.0.1-veux-20241207-1002-OFFICIAL-vendor_boot.img
+fastboot flash vendor_boot voltage-4.1-veux-20250119-1217-OFFICIAL-vendor_boot.img
 ```
 
 ```
@@ -232,5 +232,27 @@ adb sideload gapps.zip
 ```
 
 • Reboot to system
+
+# Flashing different kernel:
+
+## If you want to flash different kernel in VoltageOS, you can follow these steps:
+
+- Download vendor_boot.img from [HERE](https://sourceforge.net/projects/voltage-os/files/veux/voltage-4.0.1-veux-20241207-1002-OFFICIAL-vendor_boot.img/download)
+
+- Reboot to fastboot - Hold Volume down button + Power button until fastboot logo appears
+
+- Connect your phone to PC
+
+- Type this in your pc's cmd
+
+```
+fastboot flash vendor_boot voltage-4.0.1-veux-20241207-1002-OFFICIAL-vendor_boot.img
+```
+
+- Reboot to recovery - Hold Volume up button + Power button until recovery appears
+
+- Flash your desired kernel
+
+- Click Reboot System Now
 
 # For any queries ask in [SUPPORT GROUP](https://t.me/frosty_builds)
