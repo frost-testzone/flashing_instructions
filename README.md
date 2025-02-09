@@ -15,15 +15,15 @@
 ## Connect your phone to pc and write these commands in your pc's cmd -
 
 ```
-fastboot flash boot_a voltage-4.1-veux-20250119-1217-OFFICIAL-boot.img
+fastboot flash boot_a voltage-4.2-veux-20250209-0258-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash boot_b voltage-4.1-veux-20250119-1217-OFFICIAL-boot.img
+fastboot flash boot_b voltage-4.2-veux-20250209-0258-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash vendor_boot voltage-4.1-veux-20250119-1217-OFFICIAL-vendor_boot.img
+fastboot flash vendor_boot voltage-4.2-veux-20250209-0258-OFFICIAL-vendor_boot.img
 ```
 
 ```
@@ -189,9 +189,13 @@ Updating ROM -
 adb sideload rom.zip
 ```
 
-• Click yes on the prompt that comes after sideloading rom.zip
+- Click yes on the prompt that comes after sideloading rom.zip
+
+- Click Reboot System Now
 
 ### Only if you flashed gapps in clean installation
+
+- Don't Reboot To System
 
 - Select Apply Update
 
@@ -203,7 +207,7 @@ adb sideload rom.zip
 adb sideload gapps.zip
 ```
 
-## Click Reboot System Now
+- Click Reboot System Now
 
 ### 2nd method - Through OTA
 
@@ -212,26 +216,6 @@ adb sideload gapps.zip
 - Choose install and let it finish
 
 - Click on Reboot in OTA updater
-
-### Only if you flashed gapps in clean installation
-
-- Reboot to VoltageOS recovery (volume up + power button)
-
-- Sideload gapps that you had flashed in old version
-
-- Select Apply Update
-
-- Select Apply Update from ADB
-
-- Connect your phone to PC
-
-- Type this in your pc's cmd
-
-```
-adb sideload gapps.zip
-```
-
-• Reboot to system
 
 # Flashing different kernel:
 
