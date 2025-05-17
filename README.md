@@ -15,15 +15,15 @@
 ## Connect your phone to pc and write these commands in your pc's cmd -
 
 ```
-fastboot flash boot_a voltage-4.2-veux-20250209-0258-OFFICIAL-boot.img
+fastboot flash boot_a voltage-4.4-veux-20250517-0609-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash boot_b voltage-4.2-veux-20250209-0258-OFFICIAL-boot.img
+fastboot flash boot_b voltage-4.4-veux-20250517-0609-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash vendor_boot voltage-4.2-veux-20250209-0258-OFFICIAL-vendor_boot.img
+fastboot flash vendor_boot voltage-4.4-veux-20250517-0609-OFFICIAL-vendor_boot.img
 ```
 
 ```
@@ -211,9 +211,7 @@ adb sideload gapps.zip
 
 ### 2nd method - Through OTA
 
-- Tap on Settings -> About Phone -> Check for updates and download latest build
-
-- Choose install and let it finish
+- Tap on Settings -> System -> System updates and download latest build
 
 - Click on Reboot in OTA updater
 
