@@ -2,9 +2,9 @@
 
 # Flashing Recovery and DTBO:
 
-* boot - From rom's post.
-* vendor_boot - From rom's post.
-* [dtbo](https://t.me/frosty_builds/50818) - Only for Android 15 builds.
+* boot - From ROM's post.
+* vendor_boot - From ROM's post.
+* [dtbo](https://t.me/frosty_builds/50818) - Only for Android 15+ builds.
 * [dtbo_a14](https://t.me/frosty_builds/51604) - Only for Android 14 builds.
 
 ## Use a14 dtbo for older, i.e. Android 14 builds, namely VoltageOS v3.7-EOL.
@@ -15,15 +15,15 @@
 ## Connect your phone to pc and write these commands in your pc's cmd -
 
 ```
-fastboot flash boot_a voltage-4.4-veux-20250517-0609-OFFICIAL-boot.img
+fastboot flash boot_a voltage-4.5-EOL-veux-20250614-0533-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash boot_b voltage-4.4-veux-20250517-0609-OFFICIAL-boot.img
+fastboot flash boot_b voltage-4.5-EOL-veux-20250614-0533-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash vendor_boot voltage-4.4-veux-20250517-0609-OFFICIAL-vendor_boot.img
+fastboot flash vendor_boot voltage-4.5-EOL-veux-20250614-0533-OFFICIAL-vendor_boot.img
 ```
 
 ```
