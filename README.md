@@ -175,7 +175,7 @@ adb sideload rom.zip
 
 - Click Reboot System Now
 
-### Only if you flashed gapps in clean installation
+### Only if you flashed GApps in clean installation and your GApps weren’t backed up
 
 - Don't Reboot To System
 
