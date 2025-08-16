@@ -2,28 +2,26 @@
 
 # Flashing Recovery and DTBO:
 
-* boot - From ROM's post.
-* vendor_boot - From ROM's post.
-* [dtbo](https://t.me/frosty_builds/50818) - Only for Android 15+ builds.
+* [boot & vendor_boot](https://sourceforge.net/projects/voltage-os/files/veux/recovery/).
+* [dtbo](https://t.me/frosty_builds/50818) - Only for Android 15 + builds.
 * [dtbo_a14](https://t.me/frosty_builds/51604) - Only for Android 14 builds.
 
 ## Use a14 dtbo for older, i.e. Android 14 builds, namely VoltageOS v3.7-EOL.
-## Use a15 dtbo for newer, i.e. Android 15 builds, namely VoltageOS v4.x.
 
 # Reboot to fastboot - Hold Volume down button + Power button until fastboot logo appears 
 
 ## Connect your phone to pc and write these commands in your pc's cmd -
 
 ```
-fastboot flash boot_a voltage-4.5-EOL-veux-20250614-0533-OFFICIAL-boot.img
+fastboot flash boot_a voltage-5.0-veux-20250819-0557-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash boot_b voltage-4.5-EOL-veux-20250614-0533-OFFICIAL-boot.img
+fastboot flash boot_b voltage-5.0-veux-20250819-0557-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash vendor_boot voltage-4.5-EOL-veux-20250614-0533-OFFICIAL-vendor_boot.img
+fastboot flash vendor_boot voltage-5.0-veux-20250819-0557-OFFICIAL-vendor_boot.img
 ```
 
 ```
@@ -217,9 +215,9 @@ adb sideload gapps.zip
 
 # Flashing different kernel:
 
-## If you want to flash different kernel in VoltageOS, you can follow these steps:
+## If you want to flash different kernel in VoltageOS, you can follow these steps (for Android 16):
 
-- Download vendor_boot.img from [HERE](https://sourceforge.net/projects/voltage-os/files/veux/voltage-4.0.1-veux-20241207-1002-OFFICIAL-vendor_boot.img/download)
+- Download vendor_boot.img from [HERE](https://sourceforge.net/projects/voltage-os-veux-peux/files/kernel-flash/voltage-5.0-kernel-flash-vendor_boot.img/download)
 
 - Reboot to fastboot - Hold Volume down button + Power button until fastboot logo appears
 
@@ -228,7 +226,7 @@ adb sideload gapps.zip
 - Type this in your pc's cmd
 
 ```
-fastboot flash vendor_boot voltage-4.0.1-veux-20241207-1002-OFFICIAL-vendor_boot.img
+fastboot flash vendor_boot voltage-5.0-kernel-flash-vendor_boot.img
 ```
 
 - Reboot to recovery - Hold Volume up button + Power button until recovery appears
