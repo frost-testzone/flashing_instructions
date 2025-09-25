@@ -13,15 +13,15 @@
 ## Connect your phone to pc and write these commands in your pc's cmd -
 
 ```
-fastboot flash boot_a voltage-5.0-veux-20250819-0557-OFFICIAL-boot.img
+fastboot flash boot_a voltage-5.1-veux-20250925-0429-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash boot_b voltage-5.0-veux-20250819-0557-OFFICIAL-boot.img
+fastboot flash boot_b voltage-5.1-veux-20250925-0429-OFFICIAL-boot.img
 ```
 
 ```
-fastboot flash vendor_boot voltage-5.0-veux-20250819-0557-OFFICIAL-vendor_boot.img
+fastboot flash vendor_boot voltage-5.1-veux-20250925-0429-OFFICIAL-vendor_boot.img
 ```
 
 ```
@@ -217,7 +217,7 @@ adb sideload gapps.zip
 
 ## If you want to flash different kernel in VoltageOS, you can follow these steps (for Android 16):
 
-- Download vendor_boot.img from [HERE](https://sourceforge.net/projects/voltage-os-veux-peux/files/kernel-flash/voltage-5.0-kernel-flash-vendor_boot.img/download)
+- Download vendor_boot.img from [HERE](https://sourceforge.net/projects/voltage-os-veux-peux/files/kernel-flash/voltage-5.1-kernel-flash-vendor_boot.img/download)
 
 - Reboot to fastboot - Hold Volume down button + Power button until fastboot logo appears
 
@@ -226,7 +226,7 @@ adb sideload gapps.zip
 - Type this in your pc's cmd
 
 ```
-fastboot flash vendor_boot voltage-5.0-kernel-flash-vendor_boot.img
+fastboot flash vendor_boot voltage-5.1-kernel-flash-vendor_boot.img
 ```
 
 - Reboot to recovery - Hold Volume up button + Power button until recovery appears
